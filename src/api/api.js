@@ -16,3 +16,8 @@ export const addNewWork = async (id, payload) => {
     const response = await axios.patch(BASE + "/" + id, { works: payload });
     return response.data;
 };
+
+export const getComposerById = async (id) => {
+    const response = await axios.get(BASE + "/" + id);
+    return response.data;
+};

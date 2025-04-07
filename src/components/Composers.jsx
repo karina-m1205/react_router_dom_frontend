@@ -1,5 +1,5 @@
 import { useLoaderData, useLocation, useNavigate } from "react-router-dom";
-import { Composer } from "./Composer";
+import { ComposerCard } from "./ComposerCard";
 import { ToastContainer, toast } from "react-toastify";
 import { useEffect } from "react";
 
@@ -15,11 +15,12 @@ export const Composers = () => {
             navigate(location.pathname, { replace: true });
         };
     }, []);
+    
     return <div>
         <ToastContainer />
         <div className="gallery">
             {list.map(elm => {
-                return <Composer key={elm.id} composer={elm} />
+                return <ComposerCard key={elm.id} composer={elm} />
             })}
         </div>
     </div>

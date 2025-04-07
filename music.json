@@ -3,26 +3,66 @@
     {
       "id": "101",
       "name": "W.A. Mozart",
-      "works": [],
+      "works": [
+        {
+          "composition": "Requiem",
+          "id": 1744030350330
+        },
+        {
+          "composition": "Horn Concerto No.4",
+          "id": 1744030365918
+        }
+      ],
       "photo": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTyhfYGM5VeYFfeTckH8QtSwFc9IS06tqn_QnmC4f7XmeRtIi7GBEPTFdMU6-yMXQfu30Td9Na8MMd64MO1ajbuXw"
     },
     {
       "id": "102",
       "name": "L.V. Beethoven",
-      "works": [],
+      "works": [
+        {
+          "composition": "Moonlight Sonata",
+          "id": 1744030426748
+        },
+        {
+          "composition": "Violin Concerto",
+          "id": 1744030446384
+        },
+        {
+          "composition": "Symphony No. 6",
+          "id": 1744030462578
+        }
+      ],
       "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Joseph_Karl_Stieler%27s_Beethoven_mit_dem_Manuskript_der_Missa_solemnis.jpg/640px-Joseph_Karl_Stieler%27s_Beethoven_mit_dem_Manuskript_der_Missa_solemnis.jpg"
     },
     {
       "id": "103",
       "name": "S. Rachmaninoff",
-      "works": [],
+      "works": [
+        {
+          "composition": "The Bells",
+          "id": 1744030500200
+        }
+      ],
       "photo": "https://upload.wikimedia.org/wikipedia/commons/b/be/Sergei_Rachmaninoff_cph.3a40575.jpg"
     },
     {
       "id": "e320",
       "name": "I.S. Bax",
       "photo": "https://upload.wikimedia.org/wikipedia/commons/6/6a/Johann_Sebastian_Bach.jpg",
-      "works": []
+      "works": [
+        {
+          "composition": "Brandenburg Concertos",
+          "id": 1744030630495
+        },
+        {
+          "composition": "Concerto for 2 Violins",
+          "id": 1744030651085
+        },
+        {
+          "composition": "Toccata and Fugue in D minor",
+          "id": 1744030670766
+        }
+      ]
     }
   ]
 }

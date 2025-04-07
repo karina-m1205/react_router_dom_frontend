@@ -7,6 +7,7 @@ import { Composers } from './components/Composers';
 import { AddComposer, AddComposerAction } from './components/AddComposer';
 import { AddWork } from './components/AddWork';
 import { getComposers } from './api/api';
+import { Composer } from './components/Composer';
 
 
 const router = createBrowserRouter([
@@ -28,6 +29,10 @@ const router = createBrowserRouter([
         path: "/addwork",
         element: <AddWork />,
         loader: getComposers,
+      },
+      {
+        path:"/composer/:id",
+        element:<Composer/>
       }
     ]
   },
